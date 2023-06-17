@@ -4,7 +4,7 @@ export const bookData = [{
         author: 'Harper Lee',
         image: 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41j-s9fHJcL.jpg',
 
-        category: "read"
+        category: "Read"
     },
     {
         id: 2,
@@ -12,7 +12,7 @@ export const bookData = [{
         author: 'George Orwell',
 
         image: 'https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg',
-        category: "read"
+        category: "Read"
     },
     {
         id: 3,
@@ -20,7 +20,7 @@ export const bookData = [{
         author: 'J.D. Salinger',
 
         image: 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91HPG31dTwL.jpg',
-        category: "currentlyReading"
+        category: "Currently_Reading"
     },
     {
         id: 4,
@@ -28,7 +28,7 @@ export const bookData = [{
         author: 'F. Scott Fitzgerald',
 
         image: 'https://m.media-amazon.com/images/I/71FTb9X6wsL.jpg',
-        category: "currentlyReading"
+        category: "Currently_Reading"
     },
     {
         id: 5,
@@ -36,7 +36,7 @@ export const bookData = [{
         author: 'Aldous Huxley',
 
         image: 'https://pagdandi.org/wp-content/uploads/2021/04/Brave-New-World.jpg',
-        category: "wantToRead"
+        category: "Want_To_Read"
     },
     {
         id: 6,
@@ -44,6 +44,6 @@ export const bookData = [{
         author: 'Jane Austen',
 
         image: 'https://m.media-amazon.com/images/I/71Q1tPupKjL.jpg',
-        category: "wantToRead"
+        category: "Want_To_Read"
     },
 ]

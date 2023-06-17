@@ -1,0 +1,58 @@
+.bookCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 33px 0px;
+}
+
+.imgSection img {
+    height: 200px;
+    width: 190px;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.author {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.categoryBtn {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    color: black;
+    background-color: beige;
+    position: absolute;
+    z-index: 999;
+}
+
+.dropdown-content div {
+    cursor: pointer;
+
+}
+
+
+
+@media (min-width:1024px) {
+    .bookCard {
+
+        margin: 0px 30px;
+    }
+}
