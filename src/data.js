@@ -19,7 +19,7 @@ export const bookData = [{
         title: 'The Catcher in the Rye',
         author: 'J.D. Salinger',
 
-        image: 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91HPG31dTwL.jpg',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAhWRlNzzUc0F17C24qMQ6FVjsygkWVYnawmK5amEiXi8Jh9gdotBRJnqDghoIftBdmMM&usqp=CAU',
         category: "Currently_Reading"
     },
     {
