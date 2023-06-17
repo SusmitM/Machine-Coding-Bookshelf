@@ -19,16 +19,16 @@ export const Search = () => {
   }
   return (
    <div className="searchContainer" >
-    <div className="inputContainer" style={{cursor:"pointer"}}>
+    <div className="inputContainer">
     <span className="homeIcon" onClick={()=>navigate("/")}>🡸</span>
-       <input className="text" style={{ all: "unset",border:"1px solid black",padding:"3px"}}
+      <input className="text"
           
           placeholder="Try typing Brave New World"
         
           onChange={(e)=>handelSearch(e)}
         />
       
-        </div>
+    </div>
 
 
     <div className="resultContainer"  style={{ marginTop: "20px"}}>

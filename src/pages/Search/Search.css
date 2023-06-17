@@ -3,4 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor:pointer;
+  
+}
+.inputContainer{
+    margin:auto;
+    border:1px solid grey;
+    padding: 5px;
+    width: 550px;
+    text-align: left;
+}
+.inputContainer input{
+    all: unset;
+    margin-left:5px ;
 }
